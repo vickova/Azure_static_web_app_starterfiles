@@ -1,0 +1,39 @@
+body{
+    margin: 0;
+    box-sizing: border-box;
+    height: 100vh;
+}
+header{
+    background-color: pink;
+    justify-content: space-between;
+    padding:.5rem 1rem;
+}
+header{
+    display:flex;
+}
+.hero{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap:1rem;
+    padding: 2rem 1rem;
+}
+ul{
+    display:flex;
+    justify-content: space-between;
+    gap:1rem;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+
+h2{
+    margin: 0;
+}
+
+.index-body{
+   height: 80vh;
+}
