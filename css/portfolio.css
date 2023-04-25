@@ -5,9 +5,9 @@ body{
 }
 main section{
     display:flex;
-    /* justify-content: space-between; */
     gap:3rem;
     padding: 1rem;
+    flex-wrap: wrap;
 }
 .portfolio-image{
     width: 35%;
@@ -36,4 +36,16 @@ h2{
     cursor: pointer;
     box-shadow: 2px 2px 2px rgb(168, 168, 168);
     border: none;
+}
+
+@media screen and (max-width:680px){
+    main section{
+        display: block;
+    }
+    .portfolio-image, .portfolio-items{
+        width: 100%;
+    }
+    .item{
+        width: 100%;
+    }
 }
